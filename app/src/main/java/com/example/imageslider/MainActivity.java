@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ViewPager viewPager = findViewById(R.id.viewPager);
+        ViewPager viewPager = findViewById(R.id.ProjectImage);
         ImageAdapter adapter = new ImageAdapter(this);
         viewPager.setAdapter(adapter);
     }
